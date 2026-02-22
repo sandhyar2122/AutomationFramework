@@ -1,0 +1,3 @@
+* src/java folder is used for utilities, reusable code, POJO classes
+* src/test/java  test files like feature files steps definition files
+* Jackson data bind is used for deserilization
