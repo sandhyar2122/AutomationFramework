@@ -11,8 +11,10 @@ test("@Web Popup validations",async({page})=>
     // await page.goBack();
     // await page.goForward();
     await expect(page.locator("#displayed-text")).toBeVisible();
+    await expect(page.locator("#displayed-text123")).toBeVisible();
     await page.locator("#hide-textbox").click();
     await expect(page.locator("#displayed-text")).toBeHidden();
+     await expect(page.locator("#displayed-text123")).toBeHidden();
    // await page.pause();
     page.on('dialog',dialog => dialog.accept());
     await page.locator("#confirmbtn").click();
