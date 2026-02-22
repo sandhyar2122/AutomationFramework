@@ -12,6 +12,7 @@ test('Playwright Special locators', async ({ page }) => {
     await page.getByRole("link",{name : "Shop"}).click();
     await page.locator("app-card").filter({hasText: 'Nokia Edge'}).getByRole("button").click();
     await page.locator("app-card").filter({hasText: 'Nokia Edge01'}).getByRole("button").click();
+   await page.locator("app-card").filter({hasText: 'Nokia Edge 2200'}).getByRole("button").click();
 
     //locator(css)
 
