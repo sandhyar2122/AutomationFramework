@@ -1,10 +1,12 @@
 let message = "Hello";
 message = 2; 
 console.log(message);
-let age = 20; 
+let age = 25; 
 console.log(age);
+console.log(age+5);
 
-let numbers = [1,2,3];
+let numbers = [1,2,6,8];
 
 let user= { name: "Bob",age:34};
 user.location = "hyderabad";
+user.location = "TS-hyderabad";
